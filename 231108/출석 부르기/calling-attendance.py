@@ -1,14 +1,11 @@
 k = int(input)
 
-a = "John"
-b = "Tom"
-c = "Paul"
 
 if k == 1:
-    print(a)
+    print("John")
 elif k == 2:
-    print(b)
-elif k ==3:
-    print(c)
+    print("Tom")
+elif k == 3:
+    print("Paul")
 else:
     print("Vacancy")
