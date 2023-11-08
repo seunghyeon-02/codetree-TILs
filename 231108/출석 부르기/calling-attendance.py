@@ -1,4 +1,4 @@
-k = int(input)
+k = int(input())
 
 
 if k == 1:
