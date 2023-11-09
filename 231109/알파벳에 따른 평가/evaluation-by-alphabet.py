@@ -1,13 +1,13 @@
 a = input()
-if a = "S":
+if a == "S":
     print("Superior")
-elif a = "A":
+elif a == "A":
     print("Excellent")
-elif a = "B":
+elif a == "B":
     print("Good")
-elif a = "C":
+elif a == "C":
     print("Usually")
-elif a = "D":
+elif a == "D":
     print("Effort")
 else:
     print("Failure")
