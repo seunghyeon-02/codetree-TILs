@@ -11,4 +11,5 @@ if a == min(a, b, c):
     first += 1
 elif a == b and b == c:
     second += 1
+    
 print(first, second)
