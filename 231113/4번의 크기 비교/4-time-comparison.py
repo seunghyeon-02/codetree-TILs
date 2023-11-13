@@ -1,0 +1,12 @@
+a = int(input())
+k = input()
+l = k.split()
+b = int(l[0])
+c = int(l[1])
+d = int(l[2])
+e = int(l[3])
+
+print(int(a>b))
+print(int(a>c))
+print(int(a>d))
+print(int(a>e))
