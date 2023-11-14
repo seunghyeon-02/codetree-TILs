@@ -2,9 +2,9 @@ month = int(input())
 
 if 3 <= month <= 5:
     print("Spring")
-if 6 <= month <= 8:
+elif 6 <= month <= 8:
     print("Summer")
-if 9 <= month <= 11:
+elif 9 <= month <= 11:
     print("Fall")
 else:
     print("Winter")
