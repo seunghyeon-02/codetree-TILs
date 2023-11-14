@@ -3,7 +3,7 @@ b = input()
 c = input()
 
 a1 = a.split()
-b1 = a.split()
+b1 = b.split()
 c1 = c.split()
 
 a_symp = a1[0]
@@ -19,14 +19,13 @@ patient = 0
 
 if a_symp == "Y" and a_temp >= 37:
     patient += 1
-else:
-    patient = 0
+
 if b_symp == "Y" and b_temp >= 37:
     patient += 1
 
 if c_symp == "Y" and c_temp >= 37:
     patient +=1
-    
+
 if patient >= 2:
     print("E")
 else:
