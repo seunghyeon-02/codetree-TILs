@@ -1,5 +1,6 @@
 n = int(input())
 k =1
+
 while k<=n:
-    print(*)
+    print("*")
     k += 1
