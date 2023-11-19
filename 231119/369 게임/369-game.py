@@ -2,7 +2,7 @@ n = int(input())
 i = 1
 while i <= n:
     if i % 3 != 0:
-        if 30<= i <= 39:
+        if 30 <= i or i <= 39:
             print(0)
         else:
             print(i, end =" ")
