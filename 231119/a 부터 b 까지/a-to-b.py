@@ -9,7 +9,13 @@ for i in range(a, 30):
         break
     elif a % 2 == 0:
         a += 3
-        print(a, end =" ")
+        if a > b:
+            break
+        else:
+            print(a, end =" ")
     else:
         a *= 2
-        print(a,end =" ")
+        if a > b:
+            break
+        else:
+            print(a,end =" ")
