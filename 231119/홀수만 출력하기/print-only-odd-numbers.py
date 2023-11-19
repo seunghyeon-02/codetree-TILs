@@ -1,5 +1,5 @@
 n = int(input())
-i = 1
+i = 0
 
 while i <= n:
     k = int(input())
