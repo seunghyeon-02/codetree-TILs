@@ -13,3 +13,5 @@ for i in range(a, b+1):
             continue
 if cnt >= 1:
     print("YES")
+else:
+    print("NO")
