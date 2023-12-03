@@ -13,3 +13,4 @@ for i in range(m):
             n = 3*n + 1
             cnt += 1
     print(cnt)
+    cnt = 0
