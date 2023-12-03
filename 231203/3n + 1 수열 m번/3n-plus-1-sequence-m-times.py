@@ -3,7 +3,9 @@ cnt = 0
 
 for i in range(m):
     n = int(input())
-    while n != 1:
+    while True:
+        if n == 1:
+            break
         if n % 2 == 0:
             n /= 2
             cnt += 1
