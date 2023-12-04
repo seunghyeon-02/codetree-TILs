@@ -9,8 +9,9 @@ for i in range(10):
         break
     else:
         p+=1
-
 for j in range(p):
     sum_1 += int(n[j])
+
 avr_1 = sum_1 /p
+
 print(f"{sum_1} {avr_1:.1f}")
