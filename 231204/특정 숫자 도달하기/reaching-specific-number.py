@@ -12,9 +12,5 @@ for i in range(10):
 
 for j in range(p):
     sum_1 += int(n[j])
-
-print(sum_1, end = " ")
-
 avr_1 = sum_1 /p
-
-print(avr_1)
+print(f"{sum_1} {avr_1:.1f}")
