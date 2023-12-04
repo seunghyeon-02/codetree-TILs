@@ -5,12 +5,12 @@ sum_1 = 0
 avr_1 = 0
 for i in range(10):
     if int(k[i]) >= 250:
-        n = k[0:i]
+        k = k[0:i]
         break
     else:
         p+=1
 for j in range(p):
-    sum_1 += int(n[j])
+    sum_1 += int(k[j])
 
 avr_1 = sum_1 /p
 
