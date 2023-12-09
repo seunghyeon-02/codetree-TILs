@@ -8,7 +8,6 @@ for i in range(n):
         break
 
 n1 = len(arr)
-
 for k in range(n1):
     if arr[k] >= 10:
         cnt = arr[k] // 10
