@@ -24,6 +24,10 @@ else:
             print("Yes")
             break
         else:
-            #일치하지 않았으므로 그 다음번째항부터 다시 시작
-            arr_A = arr_A[locate_first+1:]
-            locate_first = arr_A.index(arr_B[0])
+            #일치하지 않았으므로 arr_A에 다음번째항부터 새로운 배열 대입
+            if len(arr_A[locate_first+1:]) == 0:
+                print("No")
+                break
+            else:
+                arr_A = arr_A[locate_first+1:]
+                locate_first = arr_A.index(arr_B[0])
