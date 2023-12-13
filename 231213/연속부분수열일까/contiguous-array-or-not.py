@@ -28,7 +28,7 @@ else:
             if len(arr_A[locate_first+1:]) == 0:
                 print("No")
                 break
-            elif locate_count == h +1:
+            elif locate_count == h + 1:
                 print("No")
                 break
             else:
