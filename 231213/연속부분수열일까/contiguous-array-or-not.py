@@ -3,15 +3,15 @@ len_A = k[0]
 len_B = k[1]
 arr_A = list(map(int, input().split()))
 arr_B = list(map(int, input().split()))
-
+#arr_B[0]가 없으면 연속부분수열이 안됨
 if arr_B[0] not in arr_A:
     print("No")
 else:
     locate_first = arr_A.index(arr_B[0])
-    count_locate = arr_A.count(arr_B[0])
+    locate_count = arr_A.count(arr_B[0])
     #arr_A 에 있는 arr_B의 첫번째 원소의 갯수만큼 반복한다.
-    for h in range(count_locate):
-        #만약 리스트 슬라이싱으로 n1의 길이가 작아진다면 멈추고 No 출력.
+    for h in range(locate_count):
+        #만약 리스트 슬라이스으로 len_A가 len_B보다 작아지면멈추고 No 출력.
         if (len(arr_A) < len_B) or (arr_B[0] not in arr_A):
             print("No")
             break    
@@ -26,6 +26,9 @@ else:
         else:
             #일치하지 않았으므로 arr_A에 다음번째항부터 새로운 배열 대입
             if len(arr_A[locate_first+1:]) == 0:
+                print("No")
+                break
+            elif locate_count == 1:
                 print("No")
                 break
             else:
