@@ -12,7 +12,7 @@ else:
     #arr_A 에 있는 arr_B의 첫번째 원소의 갯수만큼 반복한다.
     for h in range(locate_count):
         #만약 리스트 슬라이스으로 len_A가 len_B보다 작아지면멈추고 No 출력.
-        if (len(arr_A) < len_B) or (arr_B[0] not in arr_A):
+        if (len(arr_A[locate_first:]) < len_B) or (arr_B[0] not in arr_A):
             print("No")
             break    
         # 이 help select는 얼마나 일치하는지 알려주는 역할을 함.
