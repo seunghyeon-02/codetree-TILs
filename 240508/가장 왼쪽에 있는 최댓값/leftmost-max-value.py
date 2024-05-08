@@ -3,7 +3,7 @@ arr = list(map(int, input().split()))
 a1 = arr[0]
 
 for i in range(n):
-    if len(arr) == 1:
+    if max(arr) == arr[1]:
         print(1, end =" ")
         break
     else:
