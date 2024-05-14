@@ -9,5 +9,5 @@ for i in range(4):
     k = arr[i] + arr_2[i]
     print(k/2 , end = " ")
 print( )
-h = sum_arr+ sum_arr_2
-print(h/8)
+h = (sum_arr+ sum_arr_2) / 8
+print(f"{h:.1f}")
